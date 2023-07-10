@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jitsi</groupId>
   <artifactId>jicofo-parent</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1.1</version>
   <packaging>pom</packaging>
   <name>jicofo-parent</name>
   <description>JItsi COnference FOcus is a server side focus component used in Jitsi Meet conferences.</description>
@@ -40,11 +40,10 @@
     <kotlin.version>1.6.21</kotlin.version>
     <kotest.version>5.3.0</kotest.version>
     <slf4j.version>1.7.32</slf4j.version>
-    <jersey.version>3.0.10</jersey.version>
-    <jitsi.utils.version>1.0-126-g02b0c86</jitsi.utils.version>
-    <jicoco.version>1.1-125-g805c0d8</jicoco.version>
-    <ktlint-maven-plugin.version>1.16.0</ktlint-maven-plugin.version>
-    <spotbugs.version>4.6.0</spotbugs.version>
+    <jersey.version>3.1.1</jersey.version>
+    <jitsi.utils.version>1.0-119-ga7b23ff</jitsi.utils.version>
+    <jicoco.version>1.1-119-gc527d61</jicoco.version>
+    <spotbugs.version>4.7.3</spotbugs.version>
     <junit.version>5.8.2</junit.version>
   </properties>
   <build>
@@ -230,7 +229,7 @@
       <dependency>
         <groupId>io.sentry</groupId>
         <artifactId>sentry</artifactId>
-        <version>5.4.0</version>
+        <version>6.13.1</version>
         <scope>runtime</scope>
       </dependency>
       <!-- test -->
